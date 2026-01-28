@@ -165,8 +165,8 @@ export default function FeaturedVideos() {
             Featured <span className="gradient-text">Videos</span>
           </h2>
           <p className="text-body max-w-2xl mx-auto">
-            Check out my latest and most popular videos. From business insights to financial wisdom,
-            there&apos;s something for everyone looking to level up.
+            Check out my latest videos on investing, personal finance, and building wealth.
+            Simple strategies for beginners and intermediate investors in the US.
           </p>
         </motion.div>
 

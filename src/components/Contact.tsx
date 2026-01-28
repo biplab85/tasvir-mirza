@@ -124,8 +124,8 @@ export default function Contact() {
             Let&apos;s <span className="gradient-text">Collaborate</span>
           </h2>
           <p className="text-body max-w-2xl mx-auto">
-            Interested in working together? Have a question or just want to say hi?
-            I&apos;d love to hear from you. Let&apos;s create something amazing.
+            Have questions about investing or personal finance? Want to collaborate?
+            I&apos;d love to hear from you. Let&apos;s connect.
           </p>
         </motion.div>
 
@@ -353,7 +353,7 @@ export default function Contact() {
                     Brand Collaborations
                   </h4>
                   <p className="text-silver text-sm mb-3">
-                    Looking to partner on sponsored content, product reviews, or brand campaigns?
+                    Looking to partner on finance-related sponsored content or brand campaigns?
                   </p>
                   <a
                     href="mailto:business@tasvirmirza.com"

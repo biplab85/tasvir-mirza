@@ -5,7 +5,7 @@ import { motion, useInView, useSpring, useTransform } from 'framer-motion'
 
 const stats = [
   {
-    value: 500000,
+    value: 506,
     suffix: '+',
     label: 'Subscribers',
     icon: (
@@ -14,11 +14,11 @@ const stats = [
         <path d="M9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#0a0a0f"/>
       </svg>
     ),
-    description: 'Growing community of tech enthusiasts',
+    description: 'Growing community of finance enthusiasts',
     color: 'from-neon-pink to-neon-coral',
   },
   {
-    value: 50000000,
+    value: 90386,
     suffix: '+',
     label: 'Total Views',
     icon: (
@@ -26,11 +26,11 @@ const stats = [
         <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
       </svg>
     ),
-    description: 'Minutes of content watched worldwide',
+    description: 'Financial education content watched',
     color: 'from-electric-blue to-cyber-purple',
   },
   {
-    value: 230,
+    value: 125,
     suffix: '+',
     label: 'Videos',
     icon: (
@@ -38,19 +38,19 @@ const stats = [
         <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
       </svg>
     ),
-    description: 'High-quality videos and counting',
+    description: 'Investing & finance videos created',
     color: 'from-mint-glow to-electric-blue',
   },
   {
-    value: 45,
+    value: 2,
     suffix: '+',
-    label: 'Collaborations',
+    label: 'Years Creating',
     icon: (
       <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+        <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 4H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
       </svg>
     ),
-    description: 'Brand and creator partnerships',
+    description: 'Creating content since October 2022',
     color: 'from-cyber-purple to-neon-pink',
   },
 ]
@@ -148,7 +148,7 @@ export default function Stats() {
             Channel <span className="gradient-text">Statistics</span>
           </h2>
           <p className="text-body max-w-2xl mx-auto">
-            Numbers that tell the story of a passionate creator and an amazing community.
+            Numbers that tell the story of a growing finance education channel and community.
           </p>
         </motion.div>
 
@@ -218,7 +218,7 @@ export default function Stats() {
               <div className="marquee-content">
                 {[...Array(2)].map((_, i) => (
                   <div key={i} className="flex items-center">
-                    {['Tech Reviews', 'Tutorials', 'Gaming', 'Vlogs', 'Q&A', 'Unboxing', 'Comparisons', 'Tips & Tricks'].map((item, j) => (
+                    {['Investing', 'Personal Finance', 'Money Habits', 'Market Updates', 'Wealth Building', 'Savings Tips', 'Stock Market', 'Financial Freedom'].map((item, j) => (
                       <span
                         key={j}
                         className="px-8 font-display text-2xl lg:text-4xl font-bold text-smoke whitespace-nowrap"

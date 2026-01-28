@@ -81,8 +81,8 @@ export default function Newsletter() {
               Stay <span className="gradient-text">Updated</span>
             </h2>
             <p className="text-body max-w-xl mx-auto mb-8">
-              Get exclusive content, early access to videos, behind-the-scenes updates,
-              and tech tips delivered straight to your inbox. No spam, just pure value.
+              Get exclusive investing tips, early access to videos, behind-the-scenes updates,
+              and personal finance insights delivered straight to your inbox. No spam, just value.
             </p>
           </motion.div>
 
@@ -166,8 +166,8 @@ export default function Newsletter() {
           >
             {[
               { icon: '🎬', text: 'Early Video Access' },
-              { icon: '💡', text: 'Exclusive Tech Tips' },
-              { icon: '🎁', text: 'Giveaways & Perks' },
+              { icon: '💡', text: 'Investing Tips' },
+              { icon: '📊', text: 'Market Insights' },
             ].map((perk, index) => (
               <div
                 key={index}
@@ -201,11 +201,11 @@ export default function Newsletter() {
                 />
               ))}
               <div className="w-8 h-8 rounded-full border-2 border-graphite bg-gradient-to-br from-neon-pink to-electric-blue flex items-center justify-center text-xs font-bold text-void">
-                +5K
+                +500
               </div>
             </div>
             <span className="text-sm text-silver">
-              Join <span className="text-pearl font-medium">5,000+</span> subscribers
+              Join <span className="text-pearl font-medium">500+</span> subscribers
             </span>
           </motion.div>
         </motion.div>

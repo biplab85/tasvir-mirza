@@ -5,17 +5,17 @@ import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 
 const skills = [
-  { name: 'Financial Education', level: 95, color: 'from-neon-pink to-neon-coral' },
-  { name: 'Content Strategy', level: 90, color: 'from-electric-blue to-cyber-purple' },
-  { name: 'Business Analysis', level: 88, color: 'from-mint-glow to-electric-blue' },
-  { name: 'Storytelling', level: 92, color: 'from-cyber-purple to-neon-pink' },
+  { name: 'Investing Education', level: 95, color: 'from-neon-pink to-neon-coral' },
+  { name: 'Personal Finance', level: 92, color: 'from-electric-blue to-cyber-purple' },
+  { name: 'Market Analysis', level: 88, color: 'from-mint-glow to-electric-blue' },
+  { name: 'Financial Storytelling', level: 90, color: 'from-cyber-purple to-neon-pink' },
 ]
 
 const contentFocus = [
-  { icon: '💰', title: 'Finance', description: 'Wealth building & money tips' },
-  { icon: '🏢', title: 'Business', description: 'Business models decoded' },
-  { icon: '⚡', title: 'Motivation', description: 'Transform your mindset' },
-  { icon: '🎯', title: 'Lifestyle', description: 'Level up your life' },
+  { icon: '📈', title: 'Investing', description: 'Stock market & investing basics' },
+  { icon: '💵', title: 'Personal Finance', description: 'Money habits & savings tips' },
+  { icon: '📊', title: 'Market Updates', description: 'Latest financial trends' },
+  { icon: '💰', title: 'Wealth Building', description: 'Practical income strategies' },
 ]
 
 export default function About() {
@@ -79,7 +79,7 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.6, type: 'spring' }}
                 className="absolute -right-6 top-10 glass rounded-2xl p-4 text-center"
               >
-                <div className="font-display text-4xl font-bold gradient-text">5+</div>
+                <div className="font-display text-4xl font-bold gradient-text">2+</div>
                 <div className="text-silver text-sm font-heading">Years Creating</div>
               </motion.div>
 
@@ -90,7 +90,7 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.8, type: 'spring' }}
                 className="absolute -left-6 bottom-20 glass rounded-2xl p-4 text-center"
               >
-                <div className="font-display text-4xl font-bold gradient-text">200+</div>
+                <div className="font-display text-4xl font-bold gradient-text">125+</div>
                 <div className="text-silver text-sm font-heading">Videos Made</div>
               </motion.div>
             </div>
@@ -105,18 +105,18 @@ export default function About() {
             {/* Bio */}
             <div className="mb-10">
               <h3 className="text-subheading text-pearl mb-4">
-                Content Creator & Financial Educator
+                US Finance & Investing Educator
               </h3>
               <p className="text-body mb-4">
-                Hey there! I&apos;m Tasvir Mirza, a passionate content creator dedicated to
-                helping you understand money, business, and success. With years of experience
-                in creating impactful content, I&apos;ve built a community of ambitious individuals
-                who want to level up their lives.
+                Hey there! I&apos;m Tasvir Mirza, a content creator dedicated to making
+                investing and personal finance simple for beginners and intermediate learners
+                in the US. Since October 2022, I&apos;ve been creating content that breaks down
+                complex financial topics into easy-to-understand videos.
               </p>
               <p className="text-body">
-                From breaking down business models to sharing wealth-building strategies, my content
-                aims to educate, inspire, and transform. I believe in making financial wisdom
-                accessible to everyone through engaging storytelling.
+                From investing basics to money habits and market updates, my content focuses on
+                practical steps you can take to build wealth. I believe financial education
+                should be accessible to everyone, not just Wall Street insiders.
               </p>
             </div>
 

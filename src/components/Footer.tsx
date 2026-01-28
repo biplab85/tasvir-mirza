@@ -50,8 +50,8 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-silver text-sm mb-6 max-w-xs">
-              Content creator, tech enthusiast, and digital storyteller bringing you
-              the best in tech reviews and tutorials.
+              Finance educator helping beginners in the US build wealth through
+              investing basics, personal finance tips, and practical money strategies.
             </p>
 
             {/* Subscribe Button */}

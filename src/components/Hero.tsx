@@ -134,8 +134,8 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-body max-w-lg mx-auto lg:mx-0 mb-10"
             >
-              Helping you master money, decode business, and level up your life.
-              Your guide to financial freedom and personal transformation.
+              Helping beginners and intermediate investors in the US build wealth through
+              simple investing, personal finance, and real-world money strategies.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -184,9 +184,9 @@ export default function Hero() {
               className="flex items-center gap-8 mt-12 justify-center lg:justify-start"
             >
               {[
-                { value: '500K+', label: 'Subscribers' },
-                { value: '50M+', label: 'Views' },
-                { value: '200+', label: 'Videos' },
+                { value: '500+', label: 'Subscribers' },
+                { value: '90K+', label: 'Views' },
+                { value: '125+', label: 'Videos' },
               ].map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="font-display text-2xl font-bold gradient-text">{stat.value}</div>
@@ -249,7 +249,7 @@ export default function Hero() {
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
               >
                 <span className="text-sm font-heading font-medium flex items-center gap-2">
-                  <span className="text-neon-coral">💰</span> Finance
+                  <span className="text-neon-coral">📈</span> Investing
                 </span>
               </motion.div>
 
@@ -259,7 +259,7 @@ export default function Hero() {
                 transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
               >
                 <span className="text-sm font-heading font-medium flex items-center gap-2">
-                  <span className="text-electric-blue">🏢</span> Business
+                  <span className="text-electric-blue">💵</span> Personal Finance
                 </span>
               </motion.div>
 
@@ -269,7 +269,7 @@ export default function Hero() {
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
               >
                 <span className="text-sm font-heading font-medium flex items-center gap-2">
-                  <span className="text-mint-glow">⚡</span> Motivation
+                  <span className="text-mint-glow">💰</span> Wealth Building
                 </span>
               </motion.div>
             </div>

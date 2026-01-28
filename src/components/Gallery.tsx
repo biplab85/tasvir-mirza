@@ -71,7 +71,6 @@ export default function Gallery() {
     // Dynamically import Fancybox
     const loadFancybox = async () => {
       const { Fancybox } = await import('@fancyapps/ui')
-      await import('@fancyapps/ui/dist/fancybox/fancybox.css')
 
       Fancybox.bind('[data-fancybox="gallery"]', {
         Thumbs: {

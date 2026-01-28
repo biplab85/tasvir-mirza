@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import '@fancyapps/ui/dist/fancybox/fancybox.css'
 import { ThemeProvider } from '@/context/ThemeContext'
 
 export const metadata: Metadata = {

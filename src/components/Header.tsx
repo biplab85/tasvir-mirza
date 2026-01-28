@@ -184,7 +184,7 @@ export default function Header() {
               {/* Mobile Theme Toggle */}
               <motion.button
                 onClick={toggleTheme}
-                className="relative w-10 h-10 rounded-full glass flex items-center justify-center text-pearl hover:text-neon-pink transition-colors duration-300"
+                className="relative !hidden w-10 h-10 rounded-full glass items-center justify-center text-pearl hover:text-neon-pink transition-colors duration-300"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 aria-label="Toggle theme"
@@ -234,7 +234,7 @@ export default function Header() {
                 className="w-6 h-0.5 bg-pearl rounded-full"
                 animate={{
                   rotate: isMobileMenuOpen ? 45 : 0,
-                  y: isMobileMenuOpen ? 4 : 0,
+                  y: isMobileMenuOpen ? 11 : 0,
                 }}
               />
               <motion.span

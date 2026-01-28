@@ -18,7 +18,7 @@ const footerLinks = {
   resources: [
     { label: 'Media Kit', href: '#' },
     { label: 'Collaborations', href: '#contact' },
-    { label: 'Discord', href: 'https://discord.gg/tasvirmirza' },
+    // { label: 'Discord', href: 'https://discord.gg/tasvirmirza' },
     { label: 'Newsletter', href: '#newsletter' },
   ],
 }

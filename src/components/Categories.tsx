@@ -7,35 +7,35 @@ const categories = [
   {
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Tech Reviews',
-    description: 'In-depth reviews of the latest gadgets, smartphones, laptops, and tech accessories.',
-    videoCount: 85,
+    title: 'Finance',
+    description: 'Smart money management, wealth building strategies, and financial wisdom for everyday life.',
+    videoCount: 45,
     color: 'from-neon-pink to-neon-coral',
     bgColor: 'bg-neon-pink/10',
   },
   {
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Tutorials',
-    description: 'Step-by-step guides on software, editing, coding, and creative workflows.',
-    videoCount: 52,
+    title: 'Business',
+    description: 'Business models, entrepreneurship insights, and corporate strategies decoded.',
+    videoCount: 32,
     color: 'from-electric-blue to-cyber-purple',
     bgColor: 'bg-electric-blue/10',
   },
   {
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M13 10V3L4 14h7v7l9-11h-7z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Gaming',
-    description: 'Gaming content, reviews, walkthroughs, and epic gaming moments.',
+    title: 'Motivation',
+    description: 'Personal transformation, mindset shifts, and achieving your goals faster.',
     videoCount: 38,
     color: 'from-mint-glow to-electric-blue',
     bgColor: 'bg-mint-glow/10',
@@ -43,36 +43,36 @@ const categories = [
   {
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Vlogs',
-    description: 'Behind the scenes, daily life, travel adventures, and personal stories.',
-    videoCount: 25,
+    title: 'Lifestyle',
+    description: 'American dream reality, life lessons, and navigating modern challenges.',
+    videoCount: 28,
     color: 'from-cyber-purple to-neon-pink',
     bgColor: 'bg-cyber-purple/10',
   },
   {
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Experiments',
-    description: 'Fun tech experiments, DIY projects, and creative builds.',
-    videoCount: 18,
+    title: 'Success Secrets',
+    description: 'Hidden strategies the wealthy use, and actionable steps to level up.',
+    videoCount: 25,
     color: 'from-neon-coral to-mint-glow',
     bgColor: 'bg-neon-coral/10',
   },
   {
     icon: (
       <svg className="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Q&A',
-    description: 'Community questions, advice sessions, and interactive content.',
-    videoCount: 12,
+    title: 'Side Hustles',
+    description: 'Income streams, passive income ideas, and building multiple revenue sources.',
+    videoCount: 22,
     color: 'from-electric-blue to-mint-glow',
     bgColor: 'bg-electric-blue/10',
   },
@@ -112,8 +112,8 @@ export default function Categories() {
             Content <span className="gradient-text">Categories</span>
           </h2>
           <p className="text-body max-w-2xl mx-auto">
-            Explore my diverse range of content. From tech reviews to gaming, there&apos;s
-            something for every tech enthusiast.
+            Explore my diverse range of content. From finance and business insights to motivation
+            and lifestyle tips, there&apos;s something for everyone looking to level up.
           </p>
         </motion.div>
 

@@ -5,17 +5,17 @@ import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 
 const skills = [
-  { name: 'Video Production', level: 95, color: 'from-neon-pink to-neon-coral' },
+  { name: 'Financial Education', level: 95, color: 'from-neon-pink to-neon-coral' },
   { name: 'Content Strategy', level: 90, color: 'from-electric-blue to-cyber-purple' },
-  { name: 'Tech Reviews', level: 88, color: 'from-mint-glow to-electric-blue' },
+  { name: 'Business Analysis', level: 88, color: 'from-mint-glow to-electric-blue' },
   { name: 'Storytelling', level: 92, color: 'from-cyber-purple to-neon-pink' },
 ]
 
 const contentFocus = [
-  { icon: '🎬', title: 'Tech Reviews', description: 'In-depth analysis of latest gadgets' },
-  { icon: '📚', title: 'Tutorials', description: 'Step-by-step learning guides' },
-  { icon: '🎮', title: 'Gaming', description: 'Gaming content and reviews' },
-  { icon: '✨', title: 'Vlogs', description: 'Behind the scenes moments' },
+  { icon: '💰', title: 'Finance', description: 'Wealth building & money tips' },
+  { icon: '🏢', title: 'Business', description: 'Business models decoded' },
+  { icon: '⚡', title: 'Motivation', description: 'Transform your mindset' },
+  { icon: '🎯', title: 'Lifestyle', description: 'Level up your life' },
 ]
 
 export default function About() {
@@ -64,7 +64,7 @@ export default function About() {
               {/* Image Container */}
               <div className="relative h-full rounded-3xl overflow-hidden border border-white/10">
                 <Image
-                  src="/tasvir-mirza.jpg"
+                  src="/about.jpg"
                   alt="Tasvir Mirza"
                   fill
                   className="object-cover"
@@ -105,18 +105,18 @@ export default function About() {
             {/* Bio */}
             <div className="mb-10">
               <h3 className="text-subheading text-pearl mb-4">
-                Digital Creator & Tech Enthusiast
+                Content Creator & Financial Educator
               </h3>
               <p className="text-body mb-4">
                 Hey there! I&apos;m Tasvir Mirza, a passionate content creator dedicated to
-                making technology accessible and entertaining for everyone. With over 5 years
-                of experience in video production, I&apos;ve built a community of tech enthusiasts
-                who share my love for innovation.
+                helping you understand money, business, and success. With years of experience
+                in creating impactful content, I&apos;ve built a community of ambitious individuals
+                who want to level up their lives.
               </p>
               <p className="text-body">
-                From in-depth tech reviews to step-by-step tutorials, my content aims to
-                educate, inspire, and entertain. I believe in the power of storytelling to
-                make complex topics simple and engaging.
+                From breaking down business models to sharing wealth-building strategies, my content
+                aims to educate, inspire, and transform. I believe in making financial wisdom
+                accessible to everyone through engaging storytelling.
               </p>
             </div>
 

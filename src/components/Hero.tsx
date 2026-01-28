@@ -134,8 +134,8 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-body max-w-lg mx-auto lg:mx-0 mb-10"
             >
-              Crafting stories through pixels and passion. Tech enthusiast, creative soul,
-              and digital storyteller bringing you content that inspires and entertains.
+              Helping you master money, decode business, and level up your life.
+              Your guide to financial freedom and personal transformation.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -228,7 +228,7 @@ export default function Hero() {
               <div className="absolute inset-4 bg-gradient-to-br from-neon-pink/40 to-electric-blue/40 rounded-full blur-3xl" />
 
               {/* Image Frame */}
-              <div className="relative rounded-full overflow-hidden border-2 border-white/10 glow-pink">
+              <div className="relative rounded-full overflow-hidden border-2 border-white/10">
                 <Image
                   src="/tasvir-mirza.jpg"
                   alt="Tasvir Mirza"
@@ -249,7 +249,7 @@ export default function Hero() {
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
               >
                 <span className="text-sm font-heading font-medium flex items-center gap-2">
-                  <span className="text-neon-coral">🎬</span> Tech Reviews
+                  <span className="text-neon-coral">💰</span> Finance
                 </span>
               </motion.div>
 
@@ -259,7 +259,7 @@ export default function Hero() {
                 transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
               >
                 <span className="text-sm font-heading font-medium flex items-center gap-2">
-                  <span className="text-electric-blue">💻</span> Tutorials
+                  <span className="text-electric-blue">🏢</span> Business
                 </span>
               </motion.div>
 
@@ -269,7 +269,7 @@ export default function Hero() {
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
               >
                 <span className="text-sm font-heading font-medium flex items-center gap-2">
-                  <span className="text-mint-glow">🎮</span> Gaming
+                  <span className="text-mint-glow">⚡</span> Motivation
                 </span>
               </motion.div>
             </div>

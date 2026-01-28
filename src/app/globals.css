@@ -144,6 +144,8 @@ body {
   filter: blur(80px);
   opacity: 0.4;
   animation: float 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .orb-pink {
@@ -320,10 +322,60 @@ body {
 .swiper {
   width: 100%;
   padding: 40px 0 60px !important;
+  overflow: visible !important;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper-wrapper {
+  z-index: 1;
 }
 
 .swiper-slide {
   transition: all 0.4s ease;
+  z-index: 1;
+}
+
+.swiper-slide-active {
+  z-index: 2;
+}
+
+/* Coverflow Slider Full Width */
+.coverflow-slider {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 40px 0 !important;
+  overflow: hidden !important;
+}
+
+.coverflow-slider .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.coverflow-slider .swiper-slide {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0.4;
+  transform: scale(0.85);
+}
+
+.coverflow-slider .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+
+.coverflow-slider .swiper-slide-prev,
+.coverflow-slider .swiper-slide-next {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.swiper-pagination {
+  position: relative !important;
+  bottom: 0 !important;
+  margin-top: 20px;
+  z-index: 10;
 }
 
 .swiper-pagination-bullet {
@@ -348,6 +400,7 @@ body {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
+  z-index: 20 !important;
 }
 
 .swiper-button-prev:hover,

@@ -271,7 +271,7 @@ export default function Contact() {
                     </svg>
                   ),
                   title: 'Location',
-                  value: 'Available Worldwide',
+                  value: 'Boca Raton, FL, United States',
                   link: null,
                 },
               ].map((item, index) => (

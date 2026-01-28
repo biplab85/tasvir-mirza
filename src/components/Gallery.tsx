@@ -73,18 +73,9 @@ export default function Gallery() {
       const { Fancybox } = await import('@fancyapps/ui')
 
       Fancybox.bind('[data-fancybox="gallery"]', {
-        Thumbs: {
-          autoStart: true,
-        },
-        Toolbar: {
-          display: {
-            left: ['infobar'],
-            middle: [],
-            right: ['slideshow', 'fullscreen', 'download', 'close'],
-          },
-        },
         animated: true,
-        dragToClose: true,
+        showClass: 'fancybox-fadeIn',
+        hideClass: 'fancybox-fadeOut',
       })
 
       setFancyboxLoaded(true)
